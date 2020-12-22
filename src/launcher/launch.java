@@ -104,7 +104,7 @@ public class launch {
                         caps.setCapability("platformVersion","14.2");
                         caps.setCapability("xcodeSigningId","iPhone Developer");
                         caps.setCapability("xcodeOrgId","L687CJT5NF");
-                        caps.setCapability("wdaLocalPort","8101");
+                        caps.setCapability("wdaLocalPort","8102");
                         driver = new IOSDriver<IOSElement>(new URL("http://192.168.137.206:8080/wd/hub"), caps);
                     }
                     driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
