@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<informasiPekerjaan>
+    <btnPilih>//../android.widget.TextView[contains(@text,'Pilih')]</btnPilih>
+    <btnUbah>//../android.widget.TextView[contains(@text,'Ubah')]</btnUbah>
+    <btnSimpan>//../android.widget.TextView[contains(@text,'Simpan')]</btnSimpan>
+    <btnLanjut>//../android.widget.TextView[contains(@text,'Lanjut')]</btnLanjut>
+    <lstTujuan>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Tujuan pembukaan rekening')]/following-sibling::android.widget.TextView</lstTujuan>
+    <lstTipePekerjaan>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Tipe pekerjaan')]/following-sibling::android.widget.TextView</lstTipePekerjaan>
+    <txtNamaPerusahaan100>//../android.widget.ScrollView//../android.widget.TextView[@text='Nama perusahaan']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNamaPerusahaan100>
+    <lstIndustri>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Industri pekerjaan')]/following-sibling::android.widget.TextView</lstIndustri>
+    <lstPosisi>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Posisi pekerjaan')]/following-sibling::android.widget.TextView</lstPosisi>
+    <lstJabatan>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Jabatan pekerjaan')]/following-sibling::android.widget.TextView</lstJabatan>
+    <lstSumber>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Sumber penghasilan')]/following-sibling::android.widget.TextView</lstSumber>
+    <txtJumlahPenghasilan>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Jumlah penghasilan')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtJumlahPenghasilan>
+    <lblBlnMenetap>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Waktu mulai menetap di alamat terakhir')]/following-sibling::android.widget.TextView</lblBlnMenetap>
+    <lstKredit>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Kepemilikan rekening/kartu kredit bank lain')]/following-sibling::android.widget.TextView</lstKredit>
+    <txtNamaPerusahaanKredit>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Nama bank/institusi penyedia')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNamaPerusahaanKredit>
+    <lblBlnKredit>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Waktu kartu kredit/rekening dikeluarkan')]/following-sibling::android.widget.TextView</lblBlnKredit>
+    <lstBisnis>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Berhubungan bisnis dengan luar negeri')]/following-sibling::android.widget.TextView</lstBisnis>
+    <txtNegara>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Negara hubungan bisnis')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNegara>
+    <lstKekayaanTambahan>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Sumber kekayaan tambahan')]/following-sibling::android.widget.TextView</lstKekayaanTambahan>
+    <chkWarisan>//../android.widget.TextView[contains(@text,'Warisan')]</chkWarisan>
+    <chkTabungan>//../android.widget.TextView[contains(@text,'Tabungan')]</chkTabungan>
+    <chkKeutunganBisnis>//../android.widget.TextView[contains(@text,'Keuntungan bisnis')]</chkKeutunganBisnis>
+    <chkHadiah>//../android.widget.TextView[contains(@text,'Hadiah')]</chkHadiah>
+    <chkGaji>//../android.widget.TextView[contains(@text,'Gaji')]</chkGaji>
+    <chkLainnya>//../android.widget.TextView[contains(@text,'Lainnya, sebutkan:')]</chkLainnya>
+    <txtPenghasilanLainnya>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Penghasilan lainnya')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtPenghasilanLainnya>
+</informasiPekerjaan>

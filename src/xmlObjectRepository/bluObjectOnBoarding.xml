@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OnBoarding>
+    <btnMasuk>//../XCUIElementTypeOther[@label='Yuk Mulai!']</btnMasuk>
+    <btnHelp>//../android.widget.HorizontalScrollView/following-sibling::android.view.ViewGroup[1]</btnHelp>
+    <btnBukaTabungan>//../android.widget.TextView[@text='BUKA TABUNGAN' or @text='Buka Tabungan']</btnBukaTabungan>
+    <txtCari>//../android.widget.EditText</txtCari>
+    <lblMulai>//../XCUIElementTypeOther[@label='Yuk Mulai!']</lblMulai>
+</OnBoarding>

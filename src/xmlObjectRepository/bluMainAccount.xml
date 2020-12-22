@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mainAccount>
+    <btnReward>//../android.widget.TextView[contains(@text,'Rewardku')]</btnReward>
+    <lblBluAcc>//../android.widget.TextView[contains(@text,'bluAccount')]</lblBluAcc>
+    <btnPindahkanDana>//../XCUIElementTypeOther[@name='Pindahkan Dana'][1]</btnPindahkanDana>
+    <lblRewardNotExist>//../android.widget.TextView[contains(@text,'Reward yang dicari tidak ditemukan')]</lblRewardNotExist>
+    <txtCari>//../android.widget.TextView[contains(@text,'Cari')]/parent::android.view.ViewGroup/android.widget.EditText</txtCari>
+    <txtBulan>//../android.widget.TextView[contains(@text,'Bulan')]/following-sibling::android.widget.TextView</txtBulan>
+    <btnDownload>//../android.widget.TextView[contains(@text,'E-statement bulanan')]/following-sibling::android.view.ViewGroup[2]</btnDownload>
+    <pdf>//android.view.View[contains(@content-desc,"E-Statement")]</pdf>
+    <btnPilih>//../android.view.ViewGroup/android.widget.TextView[contains(@text,'PILIH') or contains(@text,'Pilih')]</btnPilih>
+    <btnAllow>//../android.widget.TextView[contains(@text,'Allow')]</btnAllow>
+    <lblTransSubAkun1>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]//../android.widget.TextView[contains(@text,'Dana Masuk dari')]</lblTransSubAkun1>
+    <lblFeePembayaran>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]//../android.widget.TextView[contains(@text,'Biaya Pembayaran')]</lblFeePembayaran>
+    <lblPembayaran>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]//../android.widget.TextView[contains(@text,'Pembayaran')]</lblPembayaran>
+    <lblPembayaranQR>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]//../android.widget.TextView[contains(@text,'Pembayaran QR')]</lblPembayaranQR>
+    <lblTarik>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]//../android.widget.TextView[contains(@text,'Tarik Tunai')]</lblTarik>
+    <lblPembelianPulsa>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]//../android.widget.TextView[contains(@text,'Pembelian Pulsa')]</lblPembelianPulsa>
+    <lblTransferKeFirstLine>(//XCUIElementTypeOther[@name="Riwayat transaksi Lihat Semua"])[1]/parent::XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther[contains(@label,'Transfer ke')]</lblTransferKeFirstLine>
+    <lblTransferKeSecLine>(//XCUIElementTypeOther[@name="Riwayat transaksi Lihat Semua"])[1]/parent::XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeOther[contains(@label,'Transfer ke')]</lblTransferKeSecLine>
+    <lblDanaMasukFirstLine>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]//../android.widget.TextView[contains(@text,'Dana Masuk dari')]</lblDanaMasukFirstLine>
+    <lblRiwayatBluSaving>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]//../android.widget.TextView[contains(@text,'Transfer Dana')]</lblRiwayatBluSaving>
+    <lblTarikDana>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]//../android.widget.TextView[contains(@text,'Tarik Dana')]</lblTarikDana>
+    <lblJumlahTransSubAkun1>(//XCUIElementTypeOther[@name="Riwayat transaksi Lihat Semua"])[1]/parent::XCUIElementTypeOther/XCUIElementTypeOther[3]</lblJumlahTransSubAkun1>
+    <lblJumlahTransSubAkunBiaya>(//XCUIElementTypeOther[@name="Riwayat transaksi Lihat Semua"])[1]/parent::XCUIElementTypeOther/XCUIElementTypeOther[3]</lblJumlahTransSubAkunBiaya>
+    <lblJumlahTransSubAkun2>(//XCUIElementTypeOther[@name="Riwayat transaksi Lihat Semua"])[1]/parent::XCUIElementTypeOther/XCUIElementTypeOther[4]</lblJumlahTransSubAkun2>
+    <lblJumlahTransSubAkun3>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]//../android.widget.TextView[contains(@text,'Transfer ke')]/parent::android.view.ViewGroup//../android.widget.TextView[contains(@text,'Rp')]/following-sibling::android.widget.TextView[1]</lblJumlahTransSubAkun3>
+    <lblFeePembayaranJml>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]//../android.widget.TextView[contains(@text,'Rp')]/following-sibling::android.widget.TextView[1]</lblFeePembayaranJml>
+    <lblPembelianPulsaJml>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]//../android.widget.TextView[contains(@text,'Rp')]/following-sibling::android.widget.TextView[1]</lblPembelianPulsaJml>
+    <lblPembayaranJml>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]//../android.widget.TextView[contains(@text,'Rp')]/following-sibling::android.widget.TextView[1]</lblPembayaranJml>
+    <lblTarikJumlah>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]//../android.widget.TextView[contains(@text,'Rp')]/following-sibling::android.widget.TextView[1]</lblTarikJumlah>
+    <lblTransSubAkun2>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[4]//../android.widget.TextView[contains(@text,'Transfer Dana')]</lblTransSubAkun2>
+    <lblBiayaTransfer>(//XCUIElementTypeOther[@name="Riwayat transaksi Lihat Semua"])[1]/parent::XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther[contains(@label,'Biaya Transfer ke')]</lblBiayaTransfer>
+    <lblPembayaranQRJumlah>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]//../android.widget.TextView[contains(@text,'Pembayaran QR')]/parent::android.view.ViewGroup//../android.widget.TextView[contains(@text,'Rp')]/following-sibling::android.widget.TextView[1]</lblPembayaranQRJumlah>
+    <lblRiwayatJumlahBluSaving>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]//../android.widget.TextView[contains(@text,'Transfer Dana')]/parent::android.view.ViewGroup//../android.widget.TextView[contains(@text,'Rp')]/following-sibling::android.widget.TextView[1]</lblRiwayatJumlahBluSaving>
+    <lblRiwayatJumlahTarikDanaBluSaving>//../android.widget.ScrollView//../android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]//../android.widget.TextView[contains(@text,'Tarik Dana')]/parent::android.view.ViewGroup//../android.widget.TextView[contains(@text,'Rp')]/following-sibling::android.widget.TextView[1]</lblRiwayatJumlahTarikDanaBluSaving>
+</mainAccount>

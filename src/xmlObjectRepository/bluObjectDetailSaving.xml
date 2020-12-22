@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<detailSaving>
+    <btnOk>//../android.widget.TextView[contains(@text,'OK') or contains(@text,'Ok')]</btnOk>
+    <btnSimpan>//../android.widget.TextView[contains(@text,'Simpan')]</btnSimpan>
+    <btnMore>//../android.widget.ScrollView/parent::android.view.ViewGroup/parent::android.view.ViewGroup/android.view.ViewGroup[3]</btnMore>
+    <lblLihatRiwayat>//../android.widget.TextView[contains(@text,'Lihat Riwayat Transaksi')]</lblLihatRiwayat>
+    <lnkPengaturan>//../android.widget.TextView[contains(@text,'Pengaturan')]</lnkPengaturan>
+    <lblUbahGoal>//../android.widget.TextView[contains(@text,'Atur Goal')]/following-sibling::android.widget.TextView[contains(@text,'Ubah')]</lblUbahGoal>
+    <elmTogGoal>//../android.widget.TextView[contains(@text,'Atur Goal')]/following-sibling::android.view.ViewGroup</elmTogGoal>
+    <lblUbahAuto>//../android.widget.TextView[contains(@text,'Autodebit')]/following-sibling::android.widget.TextView[contains(@text,'Ubah')]</lblUbahAuto>
+    <elmTogAuto>//../android.widget.TextView[contains(@text,'Autodebit')]/following-sibling::android.view.ViewGroup</elmTogAuto>
+    <lnkTutup>//../android.widget.TextView[contains(@text,'Tutup')]</lnkTutup>
+    <lnkTutupMember>//../android.widget.TextView[contains(@text,'Tinggalkan')]</lnkTutupMember>
+    <lnkTransfer>//../android.widget.TextView[contains(@text,'Transfer Dana')]</lnkTransfer>
+    <lnkLihat>//../android.widget.TextView[contains(@text,'LIHAT') or contains(@text,'Lihat')]</lnkLihat>
+    <txtNominal>//../android.widget.TextView[contains(@text,'Nominal')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNominal>
+    <btnBatal>//../android.widget.TextView[contains(@text,'BATAL') or @text,'Batal')]</btnBatal>
+    <btnTransferDana>//../android.widget.TextView[contains(@text,'Saldo')]/following-sibling::android.view.ViewGroup[1]</btnTransferDana>
+    <lnkTarikDana>//../android.widget.TextView[contains(@text,'Saldo')]/following-sibling::android.view.ViewGroup[1]</lnkTarikDana>
+    <txtBulan>//../android.widget.TextView[contains(@text,'Bulan')]/following-sibling::android.widget.TextView</txtBulan>
+    <btnDownload>//../android.widget.TextView[contains(@text,'E-statement bulanan bluAccount')]/following-sibling::android.view.ViewGroup[2]</btnDownload>
+    <lblDetailGoal>//../android.widget.TextView[@text='Nominal Goal']/following-sibling::android.widget.TextView[2]</lblDetailGoal>
+    <lblTglPencapaian>//../android.widget.TextView[@text='Tanggal pencapaian']/following-sibling::android.widget.TextView[1]</lblTglPencapaian>
+    <lblNominalAuto>//../android.widget.TextView[@text='Nominal Autodebit']/following-sibling::android.widget.TextView[2]</lblNominalAuto>
+    <lblNamaBluSaving>//../android.widget.TextView[@text='Tambah Dana']/parent::android.view.ViewGroup/parent::android.view.ViewGroup/preceding-sibling::android.widget.TextView</lblNamaBluSaving>
+</detailSaving>

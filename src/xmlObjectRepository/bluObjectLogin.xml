@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Login>
+    <txtNoHandphone>//../XCUIElementTypeStaticText[@label='No. Handphone']/following-sibling::XCUIElementTypeOther//../XCUIElementTypeTextField</txtNoHandphone>
+    <btnBackVer>//../XCUIElementTypeScrollView/parent::XCUIElementTypeOther/preceding-sibling::XCUIElementTypeOther</btnBackVer>
+    <btnLanjut>//../XCUIElementTypeOther[@label='Lanjut']</btnLanjut>
+    <btnBack>/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup</btnBack>
+    <txtOTP1>//../XCUIElementTypeStaticText[@label='Verifikasi nomor kamu']/following-sibling::XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]</txtOTP1>
+    <txtOTP2>//../android.widget.EditText[2]</txtOTP2>
+    <txtOTP3>//../android.widget.EditText[3]</txtOTP3>
+    <txtOTP4>//../android.widget.EditText[4]</txtOTP4>
+    <btnKeluar>//../android.widget.TextView[@text='KELUAR' or @text='Keluar']</btnKeluar>
+    <btnLupaKataSandi>//../android.widget.TextView[@text='LUPA KATA SANDI' or @text='Lupa Kata Sandi']</btnLupaKataSandi>
+    <txtPassword>//../XCUIElementTypeStaticText[@label='Password']/following-sibling::XCUIElementTypeOther//../XCUIElementTypeSecureTextField</txtPassword>
+    <btnMasuk>//../XCUIElementTypeOther[@label='MASUK' or @label='Masuk']</btnMasuk>
+    <btnHidden>//../android.widget.TextView[contains(@text,'Kata sandi')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup</btnHidden>
+    <btnBatal>//../android.widget.TextView[@text='BATAL' or @text='Batal']</btnBatal>
+    <btnCobaLagi>//../android.widget.TextView[@text='COBA LAGI' or @text='Coba Lagi']</btnCobaLagi>
+    <btnLoginAkunLain>//../XCUIElementTypeStaticText[@label='Login dengan akun lain']</btnLoginAkunLain>
+</Login>

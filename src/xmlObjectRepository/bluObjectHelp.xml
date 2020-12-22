@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Help>
+    <btnBack>//../android.widget.ScrollView/parent::android.view.ViewGroup/android.view.ViewGroup[1]</btnBack>
+    <txtCariBantuan>//../android.widget.EditText</txtCariBantuan>
+    <btnCallBantuan>//../android.widget.ScrollView/parent::android.view.ViewGroup/android.view.ViewGroup[2]</btnCallBantuan>
+    <btnSendEmail>//../android.widget.TextView[@text='ALAMAT EMAIL' or @text='Alamat email']</btnSendEmail>
+    <btnTelepon>//../android.widget.TextView[@text='TELEPON' or @text='Telepon']</btnTelepon>
+    <lstBarisPertamaFAQ>//../android.widget.TextView[@text='Bantuan']/parent::android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]</lstBarisPertamaFAQ>
+    <emailBantuan>//../android.widget.MultiAutoCompleteTextView[contains(@text,'help@getblu.co.id')]</emailBantuan>
+    <numberCS>//../android.widget.EditText[contains(@text,'150') or contains(@text,'1 500')]</numberCS>
+    <lblBantuan>//../android.widget.TextView[@text='Bantuan']</lblBantuan>
+</Help>

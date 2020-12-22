@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TarikTunai>
+    <btnTarikTunai>//../android.widget.TextView[@text='Tarik Tunai']</btnTarikTunai>
+    <btnIconHapus>//../android.widget.TextView[contains(@text,'strValue')]/parent::android.view.ViewGroup/parent::android.view.ViewGroup/following-sibling::android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup</btnIconHapus>
+    <btn50Ribu>//../android.widget.TextView[@text='50']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn50Ribu>
+    <btn100Ribu>//../android.widget.TextView[@text='100']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn100Ribu>
+    <btn150Ribu>//../android.widget.TextView[@text='150']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn150Ribu>
+    <btn200Ribu>//../android.widget.TextView[@text='200']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn200Ribu>
+    <btn250Ribu>//../android.widget.TextView[@text='250']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn250Ribu>
+    <btnNominalLain>//../android.widget.TextView[@text='Nominal Lain']</btnNominalLain>
+    <btnLanjut>//../android.widget.TextView[@text='LANJUT']</btnLanjut>
+    <btnBatal>//../android.widget.TextView[@text='BATAL']</btnBatal>
+    <txtNominal>//../android.widget.EditText</txtNominal>
+</TarikTunai>

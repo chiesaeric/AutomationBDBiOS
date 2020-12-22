@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Pemrek>
+    <txtNoHp>//../android.widget.TextView[@text='Nomor handphone']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNoHp>
+    <txtAlamatEmail>//../android.widget.TextView[@text='Alamat email']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtAlamatEmail>
+    <txtKodeReferal>//../android.widget.TextView[@text='Kode referal']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtKodeReferal>
+    <btnLanjut>//../android.widget.TextView[@text='LANJUT']</btnLanjut>
+    <txtKataSandiBaru>//../android.widget.TextView[@text='Kata sandi baru']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtKataSandiBaru>
+    <txtKonfirmasiKataSandi>//../android.widget.TextView[@text='Konfirmasi kata sandi']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtKonfirmasiKataSandi>
+    <btnFotoKTP>//../android.widget.TextView[@text='LANJUT']</btnFotoKTP>
+    <btnTakePictureKTP>//../android.widget.TextView[@text='Posisikan KTP dalam area terang']/following-sibling::android.view.ViewGroup</btnTakePictureKTP>
+    <btnCobaLagi>//../android.widget.TextView[@text='COBA LAGI']</btnCobaLagi>
+    <btnFotoSelfie>//../android.widget.TextView[@text='AMBIL FOTO SELFIE']</btnFotoSelfie>
+    <btnTakePictureSelfie>//../android.widget.TextView[@text='Pastikan wajahmu terlihat jelas']/following-sibling::android.view.ViewGroup</btnTakePictureSelfie>
+    <btnFotoTTD>//../android.widget.TextView[@text='AMBIL FOTO TANDA TANGAN']</btnFotoTTD>
+    <btnTakePictureTTD>//../android.widget.TextView[@text='Posisikan Tanda Tangan dalam area terang']/following-sibling::android.view.ViewGroup</btnTakePictureTTD>
+    <txtNomorKTP>//../android.widget.TextView[@text='Nomor KTP']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNomorKTP>
+    <txtNamaLengkap>//../android.widget.TextView[@text='Nama lengkap']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNamaLengkap>
+    <btnLakilaki>//../android.widget.TextView[@text='Laki-laki']</btnLakilaki>
+    <btnPerempuan>//../android.widget.TextView[@text='Perempuan']</btnPerempuan>
+    <txtTempatLahir>//../android.widget.TextView[@text='Tempat lahir']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtTempatLahir>
+    <txtAlamat>//../android.widget.TextView[@text='Alamat']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtAlamat>
+    <txtTglLahir>//../android.widget.TextView[@text='Tanggal lahir']/following-sibling::android.widget.TextView</txtTglLahir>
+    <txtRT>//../android.widget.TextView[@text='RT']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtRT>
+    <txtRW>//../android.widget.TextView[@text='RW']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtRW>
+    <txtKelurahan>//../android.widget.TextView[@text='Kelurahan/Desa']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtKelurahan>
+    <txtKecamatan>//../android.widget.TextView[@text='Kecamatan']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtKecamatan>
+    <txtKota>//../android.widget.TextView[@text='Kota/Kabupaten']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtKota>
+    <txtProv>//../android.widget.TextView[@text='Provinsi']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtProv>
+    <lstAgama>//../android.widget.TextView[@text='Agama']/following-sibling::android.widget.TextView</lstAgama>
+    <lstStatus>//../android.widget.TextView[@text='Status perkawinan']/following-sibling::android.widget.TextView</lstStatus>
+    <lstWarganegara>//../android.widget.TextView[@text='Kewarganegaraan']/following-sibling::android.widget.TextView</lstWarganegara>
+    <lblVerifHP>//../XCUIElementTypeStaticText[@label='Verifikasi nomor kamu']</lblVerifHP>
+    <btnPilih>//../android.view.ViewGroup/android.widget.TextView[contains(@text,'PILIH')]</btnPilih>
+</Pemrek>
