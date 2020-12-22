@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Transfer>
+    <txtCari>//../XCUIElementTypeOther[@label="Cari "]//../XCUIElementTypeTextField</txtCari>
+    <txtNominal>(//XCUIElementTypeOther[@label='Rp'])[1]</txtNominal>
+    <txtPesan>(//XCUIElementTypeOther[contains(@label,'Catatan (Opsional)')])[43]</txtPesan>
+    <txtPesan>//../XCUIElementTypeOther[@label='Catatan (Opsional) 40']/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther</txtPesan>
+    <btnBatal>//../android.widget.TextView[@text='BATAL' or @text='Batal']</btnBatal>
+    <btnLanjut>(//XCUIElementTypeOther[@label='Lanjut'])[1] </btnLanjut>
+    <btnSelanjutnya>//../android.widget.TextView[@text='Selanjutnya']</btnSelanjutnya>
+    <btnTransfer>(//XCUIElementTypeOther[@name="Transfer"])[3]</btnTransfer>
+    <btnKeBeranda>//XCUIElementTypeOther[contains(@name,'Kembali ke Beranda')]</btnKeBeranda>
+    <btnOKE>//../android.widget.TextView[@text='OKE']</btnOKE>
+    <btnKeBerandaOke>(//XCUIElementTypeOther[@name='Kembali ke Beranda' or @name='OKE'])[1]</btnKeBerandaOke>
+    <btnReward>//../android.widget.TextView[contains(@text,'reward')]</btnReward>
+    <btnTambah>//../android.widget.TextView[@text='Daftar penerima']/parent::android.view.ViewGroup/parent::android.widget.ScrollView/preceding-sibling::android.view.ViewGroup[1]</btnTambah>
+    <cbxSimpanrek>//../android.widget.TextView[@text='']</cbxSimpanrek>
+    <txtJumlah>//XCUIElementTypeStaticText[@name="Jumlah"]/following-sibling::XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText</txtJumlah>
+    <cbxSimpanrek2>//../android.widget.TextView[@text='Simpan nomor rekening']/preceding-sibling::android.widget.TextView</cbxSimpanrek2>
+    <txtNamaAlias>//../android.widget.TextView[@text='Nama alias']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNamaAlias>
+    <lblDuplikatRek>//../android.widget.TextView[@text='Teman sudah terdaftar']</lblDuplikatRek>
+    <switchSimpanRek>(//XCUIElementTypeOther[@name="Simpan Rekening"])[4]/following-sibling::XCUIElementTypeOther</switchSimpanRek>
+    <lblSedangProses>//XCUIElementTypeOther[contains(@name,'Mohon menunggu')]</lblSedangProses>
+    <btnTransferBaru>//../android.widget.TextView[@text='Transfer Baru']</btnTransferBaru>
+    <lblWaktuTransfer>//../android.widget.TextView[@text='Transfer Berhasil']/following-sibling::android.widget.TextView</lblWaktuTransfer>
+    <lblTotal>//XCUIElementTypeStaticText[@name="Jumlah Total"]/following-sibling::XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText</lblTotal>
+    <lblRewards>//../android.widget.TextView[@text='bluRewards']</lblRewards>
+    <lblNotUseReward>(//XCUIElementTypeOther[@name="Makin Smart dengan bluRewards Cek bluRewards kamu"])[2]</lblNotUseReward>
+    <lblBiayaTransaksi>//../android.widget.TextView[@text='Biaya Admin']/following-sibling::android.widget.TextView[2]</lblBiayaTransaksi>
+    <lblBiayaTransaksiGratis>//XCUIElementTypeStaticText[@name="Biaya Admin"]/following-sibling::XCUIElementTypeOther/XCUIElementTypeStaticText</lblBiayaTransaksiGratis>
+    <lblNoReff>(//XCUIElementTypeOther[contains(@name,'No. Ref')])[42]</lblNoReff>
+    <tabFav>//XCUIElementTypeOther[@name="Favorit"]</tabFav>
+    <txtFav>//../XCUIElementTypeOther[@label="Cari "]//../XCUIElementTypeTextField</txtFav>
+    <btnTranferBaru>//../android.widget.TextView[@text='Buat Tranfer Baru']</btnTranferBaru>
+    <lblBelumFav>//XCUIElementTypeOther[contains(@label,'Kamu velum punya Daftar Favorit')]</lblBelumFav>
+    <btnTranferBaru>//../android.widget.TextView[@text='Buat Tranfer Baru']</btnTranferBaru>
+	<lblCekNoRek>//../android.widget.TextView[contains(@text,'Hmm, yakin udah bener nomornya?')]</lblCekNoRek>
+	<lblSaldoTidakCukup>//XCUIElementTypeStaticText[@name="Oops! Saldo kamu tidak cukup"]</lblSaldoTidakCukup>
+    <btnBuatTransferBaru>//XCUIElementTypeOther[@name="Transfer Baru"]</btnBuatTransferBaru>
+    <lblBerhasilFav>//XCUIElementTypeOther[contains(@label,'tersimpan di daftar Transaksi')]</lblBerhasilFav>
+    <lblGagalFav>//XCUIElementTypeOther[contains(@label,'Pilih Nama Alias Lain')]</lblGagalFav>
+    <lblJumlahBukti>//XCUIElementTypeStaticText[@name="Rp"]/following-sibling::XCUIElementTypeOther</lblJumlahBukti>
+    <btnHapus>//../android.widget.TextView[contains(@text,'Hapus')]</btnHapus>
+</Transfer>

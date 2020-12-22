@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PIN>
+    <txtPin1>//../android.widget.EditText[1]</txtPin1>
+    <txtPin2>//../android.widget.EditText[2]</txtPin2>
+    <txtPin3>//../android.widget.EditText[3]</txtPin3>
+    <txtPin4>//../android.widget.EditText[4]</txtPin4>
+    <txtPin5>//../android.widget.EditText[5]</txtPin5>
+    <txtPin6>//../android.widget.EditText[6]</txtPin6>
+    <btn1>//XCUIElementTypeOther[@name="1 2 3"]</btn1>
+    <btn2>//XCUIElementTypeOther[@name="1 2 3"]</btn2>
+    <btn3>//XCUIElementTypeOther[@name="1 2 3"]</btn3>
+    <btn4>//XCUIElementTypeOther[@name="4 5 6"]</btn4>
+    <btn5>//XCUIElementTypeOther[@name="4 5 6"]</btn5>
+    <btn6>//XCUIElementTypeOther[@name="4 5 6"]</btn6>
+    <btn7>//XCUIElementTypeOther[@name="7 8 9"]</btn7>
+    <btn8>//XCUIElementTypeOther[@name="7 8 9"]</btn8>
+    <btn9>//XCUIElementTypeOther[@name="7 8 9"]</btn9>
+    <btn0>//XCUIElementTypeOther[@name="0"]</btn0>
+    <btnKeyBoardDel>//../android.widget.TextView[@text='']</btnKeyBoardDel>
+    <btnOk>//../android.widget.TextView[@text='OKE' or @text='Ok']</btnOk>
+    <lblSalah>//../android.widget.TextView[contains(@text,'PIN Salah')]</lblSalah>
+    <lblSama>//../android.widget.TextView[contains(@text,'PIN tidak boleh sama')]</lblSama>
+
+</PIN>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<eMoney>
+    <lblNominalTopUp>//../android.widget.TextView[contains(@text,'Nominal E-Money')]/following-sibling::android.widget.TextView</lblNominalTopUp>
+    <lnkTopUpBaru>//../android.widget.TextView[@text='Top Up Baru']</lnkTopUpBaru>
+    <btnPakaiKuponTopupGopay>//../android.widget.TextView[contains(@text,'Coupon top up Gopay')]/parent::android.view.ViewGroup/parent::android.view.ViewGroup/following-sibling::android.view.ViewGroup</btnPakaiKuponTopupGopay>
+</eMoney>

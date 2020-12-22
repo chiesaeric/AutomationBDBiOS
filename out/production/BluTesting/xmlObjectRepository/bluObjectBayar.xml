@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bayar>
+    <tabKategori>//../android.widget.TextView[@text='Kategori']</tabKategori>
+    <tabFav>//../android.widget.TextView[@text='Favorit']</tabFav>
+    <txtCariJenis>//../android.widget.TextView[contains(@text,'Cari')]/parent::android.view.ViewGroup/android.widget.EditText</txtCariJenis>
+    <txtCariKontak>//../android.widget.TextView[contains(@text,'Cari Kontak')]/parent::android.view.ViewGroup/android.widget.EditText</txtCariKontak>
+    <txtNomor>//../android.widget.TextView[contains(@text,'Nomor handphone')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNomor>
+    <lnkKontak>//../android.widget.TextView[contains(@text,'Nomor handphone')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup</lnkKontak>
+    <btnBayar>//../android.widget.TextView[@text='Bayar']</btnBayar>
+    <btnKembaliBeranda>//../android.widget.TextView[contains(@text,'Kembali ke Beranda')]</btnKembaliBeranda>
+    <lblGagal>//../android.widget.TextView[contains(@text,'Konfirmasi pembayaran gagal')]</lblGagal>
+    <lblSaldo>//../android.widget.TextView[contains(@text,'pastikan lagi saldo kamu')]</lblSaldo>
+    <lblNomorTidakValid>//../android.widget.TextView[contains(@text,'Yakin nomernya udah bener?') or contains(@text,'Tidak terdapat tagihan')]</lblNomorTidakValid>
+    <lblBerhasil>//../android.widget.TextView[contains(@text,'Transaksi Berhasil')]</lblBerhasil>
+    <btnSimpanFav>(//XCUIElementTypeOther[@name="Simpan Sebagai Favorit"])[2]</btnSimpanFav>
+    <txtNamaAlias>//../android.widget.TextView[contains(@text,'Nama alias')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNamaAlias>
+    <radioIngat>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Ingatkan saya')]/following-sibling::android.widget.Switch[1]</radioIngat>
+    <elmTanggalBer>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Tanggal berakhir')]</elmTanggalBer>
+    <btnPilih>//../android.widget.TextView[contains(@text,'Pilih')]</btnPilih>
+    <btnSimpan>//../android.widget.TextView[contains(@text,'Simpan')]</btnSimpan>
+    <lblBerhasilFav>//../android.widget.TextView[contains(@text,'tersimpan di daftar pembayaran') or contains(@text,'tersimpan di daftar pembelian')]</lblBerhasilFav>
+    <lblGagalFav>//../android.widget.TextView[contains(@text,'Pilih Nama Alias Lain')]</lblGagalFav>
+    <lblBelumFav>//../android.widget.TextView[contains(@text,'Kamu belum punya Favorit')]</lblBelumFav>
+    <txtNominal>//../android.widget.TextView[contains(@text,'Nominal')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNominal>
+    <txtPesan>//../android.widget.TextView[contains(@text,'Tulis pesan di sini')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtPesan>
+    <lblJumlahTotal>//../android.widget.TextView[contains(@text,'Total')]/following-sibling::android.widget.TextView[2]</lblJumlahTotal>
+    <lblJumlahFee>//../android.widget.TextView[contains(@text,'Biaya Admin')]/following-sibling::android.widget.TextView[2]</lblJumlahFee>
+    <lblTotal>//XCUIElementTypeStaticText[@name="Jumlah"]/following-sibling::XCUIElementTypeOther/XCUIElementTypeOther</lblTotal>
+    <btnBatal>//../android.widget.TextView[@text='BATAL']</btnBatal>
+    <btnLanjut>//../android.widget.TextView[@text='LANJUT' or @text='Lanjut']</btnLanjut>
+    <btnReward>//../android.widget.TextView[contains(@text,'reward')]</btnReward>
+    <btnAllow1>//./android.widget.Button[@text='Allow']</btnAllow1>
+    <btnAllow2>//./android.widget.Button[@text='Allow']</btnAllow2>
+    <lblDalamProses>//../android.widget.TextView[contains(@text,'Transaksi masih dalam proses')]</lblDalamProses>
+    <lblNoReff>//../android.widget.TextView[@text='No. Ref']/following-sibling::android.widget.TextView[1]</lblNoReff>
+    <txtJumlah>//../android.widget.TextView[@text='Jumlah']/parent::android.view.ViewGroup/android.widget.TextView[3]</txtJumlah>
+    <lblNominalTagihan>//../android.widget.TextView[@text='Jumlah Tagihan']/following-sibling::android.widget.TextView[2]</lblNominalTagihan>
+    <lblNominalPulsa>//../android.widget.TextView[@text='Nominal Pulsa']/following-sibling::android.widget.TextView[1]</lblNominalPulsa>
+    <lblHargaPulsa>//../android.widget.TextView[contains(@text,'Harga')]/following-sibling::android.widget.TextView[2]</lblHargaPulsa>
+    <btnOK>//../android.widget.TextView[@text='OK']</btnOK>
+    <btnHapus>//../android.widget.TextView[@text='Hapus']</btnHapus>
+    <lblMsgPulsa>//../android.widget.TextView[contains(@text,'Tidak terdapat pilihan transaksi')]</lblMsgPulsa>
+    <lblGratis>//../android.widget.TextView[contains(@text,'Biaya Admin')]/following-sibling::android.widget.TextView[@text='Gratis']</lblGratis>
+</Bayar>

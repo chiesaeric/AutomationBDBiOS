@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PengaturanRekening>
+    <txtLimit>//../android.widget.TextView[@text='Limit transaksi harian']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtLimit>
+    <txtLimitNull>//../android.widget.TextView[@text='Limit transaksi harian']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText[@text='0']</txtLimitNull>
+    <btnSimpan>//../android.widget.TextView[contains(@text,'SIMPAN') or contains(@text,'Simpan')]</btnSimpan>
+    <lblSisaLimit>//../XCUIElementTypeStaticText[contains(@label,'Sisa limit transaksi')]</lblSisaLimit>
+</PengaturanRekening>

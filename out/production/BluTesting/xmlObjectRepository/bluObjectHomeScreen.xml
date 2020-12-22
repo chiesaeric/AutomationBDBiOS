@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<homeScreen>
+    <lblCobaLagi>//../XCUIElementTypeOther[@label='Coba Lagi']</lblCobaLagi>
+    <lblBatal>//../XCUIElementTypeOther[@label='Batal']</lblBatal>
+    <lblGreeting>//../android.widget.ScrollView//../android.widget.TextView[contains(@text, 'Selamat')]</lblGreeting>
+    <lnkScan>//../android.widget.ScrollView//../android.widget.TextView[@text='Scan']</lnkScan>
+    <lnkTransfer>//../android.widget.ScrollView//../android.widget.TextView[@text='Transfer']</lnkTransfer>
+    <lnkBeli>//../android.widget.ScrollView//../android.widget.TextView[@text='Beli']</lnkBeli>
+    <lnkBayar>//../android.widget.ScrollView//../android.widget.TextView[@text='Bayar']</lnkBayar>
+    <lnkTartun>//../android.widget.ScrollView//../android.widget.TextView[@text='Tarik Tunai']</lnkTartun>
+    <imgSymbol>//../XCUIElementTypeOther[contains(@label,'●')]</imgSymbol>
+    <btnHiddenAcc>//../XCUIElementTypeStaticText[@label='Rp']/parent::XCUIElementTypeOther/following-sibling::XCUIElementTypeOther</btnHiddenAcc>
+    <btnHiddenBluAcc>//../android.widget.ScrollView//../android.widget.TextView[@text='Total saldo kamu']/following-sibling::android.view.ViewGroup[1]</btnHiddenBluAcc>
+    <btnHiddenDep>//../android.widget.ScrollView//../android.widget.TextView[contains(@text, 'saldo deposito')]/preceding-sibling::android.view.ViewGroup[1]</btnHiddenDep>
+    <lnkDetailAcc>//../android.widget.TextView[@text='Simpanan Utama']</lnkDetailAcc>
+    <lnkBeranda>Beranda, tab, 1 of 5</lnkBeranda>
+    <lnkBerandaXpath>//android.widget.Button[@content-desc="Beranda, tab, 1 of 5"]</lnkBerandaXpath>
+    <lnkRiwayat>Riwayat, tab, 2 of 5</lnkRiwayat>
+    <lblbluSaving>//../android.widget.TextView[@text='bluSaving']/parent::android.view.ViewGroup/parent::android.view.ViewGroup/following-sibling::android.view.ViewGroup//../android.widget.TextView[@text='Tambah']</lblbluSaving>
+    <lblLihatbluSaving>//../android.widget.TextView[@text='bluSaving']/parent::android.view.ViewGroup/android.widget.TextView[@text='Lihat Semua']</lblLihatbluSaving>
+    <lblbluGether>//../android.widget.TextView[@text='bluGether']/parent::android.view.ViewGroup/parent::android.view.ViewGroup/following-sibling::android.view.ViewGroup//../android.widget.TextView[@text='Tambah']</lblbluGether>
+    <lblLihatbluGether>//../android.widget.TextView[@text='bluGether']/parent::android.view.ViewGroup/android.widget.TextView[@text='Lihat Semua']</lblLihatbluGether>
+    <lblTotalSaving>//../android.widget.TextView[@text='bluSaving']/parent::android.view.ViewGroup/android.widget.TextView[@text='Rp']/following-sibling::android.widget.TextView[1]</lblTotalSaving>
+    <lblTotalGether>//../android.widget.TextView[@text='bluGether']/parent::android.view.ViewGroup/android.widget.TextView[@text='Rp']/following-sibling::android.widget.TextView[1]</lblTotalGether>
+    <lblDetailSaving>//../android.widget.TextView[contains(@text,'Tambah') or contains(@text,'Kuota 10')]/parent::android.view.ViewGroup/parent::android.view.ViewGroup/following-sibling::android.view.ViewGroup[1]//../android.widget.TextView[contains(@text,'Rp')]/following-sibling::android.widget.TextView[1]</lblDetailSaving>
+    <lnkNotif>//../XCUIElementTypeStaticText[@label='Saldo bluAccount' or @label='Total saldo kamu' or @label='Cash Flow Kamu Bulan Ini']/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/parent::XCUIElementTypeScrollView/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/preceding-sibling::XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]</lnkNotif>
+    <lnkPengaturan>//../XCUIElementTypeStaticText[@label='Saldo bluAccount' or @label='Total saldo kamu' or @label='Cash Flow Kamu Bulan Ini']/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/parent::XCUIElementTypeScrollView/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/preceding-sibling::XCUIElementTypeOther/XCUIElementTypeOther[1]</lnkPengaturan>
+    <lblDetailSaving>//../android.widget.TextView[contains(@text,'Tambah')]/parent::android.view.ViewGroup/parent::android.view.ViewGroup/following-sibling::android.view.ViewGroup[1]//../android.widget.TextView[contains(@text,'Rp')]/following-sibling::android.widget.TextView[1]</lblDetailSaving>
+    <lnkNotifGaGuna>//../android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[4]</lnkNotifGaGuna>
+    <lnkPengaturanGaGuna>//../android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]</lnkPengaturanGaGuna>
+    <lnkFav>/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup</lnkFav>
+    <lnkTrxJalanFav>//../android.widget.TextView[@text='Transfer jalan']</lnkTrxJalanFav>
+    <lnkPembayaranPulFav>//../android.widget.TextView[@text='Pembayaran pulsa']</lnkPembayaranPulFav>
+    <lnkPembayaranLisFav>//../android.widget.TextView[@text='Pembayaran listrik']</lnkPembayaranLisFav>
+    <lnkTopUpFav>//../android.widget.TextView[@text='Top up']</lnkTopUpFav>
+    <lnkTambahFav>//../android.widget.TextView[@text='Tambah favorit']</lnkTambahFav>
+    <lnkBluAccount>//../android.widget.TextView[contains(@text, 'Rp')]/parent::android.view.ViewGroup/android.widget.TextView[contains(@text,'0')]</lnkBluAccount>
+    <lnkBluSaving>//../android.widget.TextView[contains(@text, 'Menabung dan atur sesukamu')]</lnkBluSaving>
+    <lnkBluDeposit>//../android.widget.TextView[contains(@text, 'dengan deposito')]</lnkBluDeposit>
+    <lnkClosePopUp>//../android.widget.TextView[contains(@text, 'biometri?')]/preceding-sibling::android.view.ViewGroup[1]</lnkClosePopUp>
+    <lnkAktifPop>//../android.widget.TextView[contains(@text, 'biometri?')]/following-sibling::android.view.ViewGroup[3]/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView[contains(@text, 'YA, AKTIFKAN SEKARANG') or contains(@text, 'Ya, aktifkan sekarang')]</lnkAktifPop>
+    <lnkLewatiPop>//../android.widget.TextView[contains(@text, 'Nanti Saja')]</lnkLewatiPop>
+    <lblTotalSaldoKamu>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Total saldo')]</lblTotalSaldoKamu>
+    <lblNoRek>//../android.widget.TextView[@text='Simpanan Utama']/following-sibling::android.widget.TextView[1]</lblNoRek>
+    <lblSaldoAktif>(//XCUIElementTypeStaticText[@name="Saldo bluAccount"]/following-sibling::XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther)[1]</lblSaldoAktif>
+    <btnTransaksi>//../XCUIElementTypeOther[@name='Horizontal scroll bar, 1 page']/parent::XCUIElementTypeScrollView/parent::XCUIElementTypeOther/following-sibling::XCUIElementTypeOther/XCUIElementTypeOther</btnTransaksi>
+    <btnDetailBluAccount>//../XCUIElementTypeStaticText[@name='bluAccount']/following-sibling::XCUIElementTypeOther</btnDetailBluAccount>
+    <lblSaldoMask>//../android.widget.TextView[contains(@text,'●')]</lblSaldoMask>
+    <lblTotalSaldo>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Total saldo')]/following-sibling::android.widget.TextView[2]</lblTotalSaldo>
+    <lblKetentuan>//../android.widget.TextView[contains(@text,'Syarat dan Ketentuan') or contains(@text,'SYARAT DAN KETENTUAN')]</lblKetentuan>
+    <lblPocketBluSaving>//../android.widget.TextView[@text='bluSaving']</lblPocketBluSaving>
+    <lblPocketBluGether>//../android.widget.TextView[@text='bluGether']</lblPocketBluGether>
+</homeScreen>

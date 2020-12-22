@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LoginBlu>
+    <lblPembayaran>//../android.widget.TextView[contains(@text,'Pembayaran QR')]</lblPembayaran>
+    <txtJmlPembayaran>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Jumlah pembayaran')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtJmlPembayaran>
+    <lblMauTip>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Mau kasih tip')]</lblMauTip>
+    <txtJmlTip>//../android.widget.ScrollView//../android.widget.TextView[contains(@text,'Jumlah Tip')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtJmlTip>
+    <btnLanjut>//../android.widget.TextView[contains(@text,'Lanjut')]</btnLanjut>
+    <lblOpsie>//../android.widget.TextView[contains(@text,'Oopsiie')]</lblOpsie>
+    <imgGaleri>//../android.widget.TextView[contains(@text,'Galeri')]/preceding-sibling::android.view.ViewGroup[3]</imgGaleri>
+    <imgGaleriGaGuna>//../android.widget.TextView[contains(@text,'Galeri')]/parent::android.view.ViewGroup/android.view.ViewGroup[1]</imgGaleriGaGuna>
+</LoginBlu>
