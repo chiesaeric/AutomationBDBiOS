@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kontak>
+    SWIPE::Otoritas Jasa Keuangan
+    <lblKetentuan>//../android.widget.TextView[contains(@text,'KETENTUAN APLIKASI')]</lblKetentuan>
+    <btnSetuju>//../android.widget.TextView[@text='Setuju']</btnSetuju>
+</kontak>

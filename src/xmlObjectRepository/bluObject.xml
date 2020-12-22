@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LoginBlu>
+    <btnAllow>//./android.widget.Button[@text='Allow']</btnAllow>
+    <imgAlbum>com.sec.android.gallery3d:id/thumbnail</imgAlbum>
+    <btnCloseKonfirmasi>//../android.widget.TextView[@text='Konfirmasi']/parent::android.view.ViewGroup/parent::android.widget.ScrollView/parent::android.view.ViewGroup/android.view.ViewGroup[2]</btnCloseKonfirmasi>
+    <btnBack>(//XCUIElementTypeOther[@name="Vertical scroll bar, 1 page Horizontal scroll bar, 1 page"]//following-sibling::XCUIElementTypeOther)[1]</btnBack>
+    <btnBackBukti>(//XCUIElementTypeScrollView/parent::XCUIElementTypeOther/parent::XCUIElementTypeOther/preceding-sibling::XCUIElementTypeOther)[1]</btnBackBukti>
+</LoginBlu>

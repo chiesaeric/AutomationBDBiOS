@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Beli>
+    <btn1Ribu>//../android.widget.TextView[@text='1']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn1Ribu>
+    <btn5Ribu>//../android.widget.TextView[@text='5']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn5Ribu>
+    <btn10Ribu>//../android.widget.TextView[@text='10']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn10Ribu>
+    <btn20Ribu>//../android.widget.TextView[@text='20']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn20Ribu>
+    <btn25Ribu>//../android.widget.TextView[@text='25']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn25Ribu>
+    <btn50Ribu>//../android.widget.TextView[@text='50']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn50Ribu>
+    <btn100Ribu>//../android.widget.TextView[@text='100']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn100Ribu>
+    <btn150Ribu>//../android.widget.TextView[@text='150']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn150Ribu>
+    <btn200Ribu>//../android.widget.TextView[@text='200']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn200Ribu>
+    <btn300Ribu>//../android.widget.TextView[@text='300']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn300Ribu>
+    <btn500Ribu>//../android.widget.TextView[@text='500']/parent::android.view.ViewGroup/android.widget.TextView[@text='ribu']</btn500Ribu>
+    <btn1Juta>//../android.widget.TextView[@text='1']/parent::android.view.ViewGroup/android.widget.TextView[@text='juta']</btn1Juta>
+    <txtNama>//../android.widget.TextView[@text='Nama']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNama>
+    <cbxSimpanNo>//../android.widget.TextView[@text='']</cbxSimpanNo>
+    <cbxSimpanNo2>//../android.widget.TextView[@text='Simpan nomor handphone']/preceding-sibling::android.widget.TextView</cbxSimpanNo2>
+    <btnKontak>//../android.widget.TextView[@text='+62']/following-sibling::android.view.ViewGroup</btnKontak>
+    <txtCariNoHp>//../android.widget.TextView[@text='Cari nomor handphone']/parent::android.view.ViewGroup/android.widget.EditText</txtCariNoHp>
+    <lblSedangProses>//../android.widget.TextView[@text='Kami sedang memproses permintaan anda']</lblSedangProses>
+    <lblCobaLagi>//../android.widget.TextView[contains(@text,'Silakan coba lagi')]</lblCobaLagi>
+    <lblTidakPilihan>//../android.widget.TextView[contains(@text,'Tidak terdapat pilihan')]</lblTidakPilihan>
+    <lblNoHpEmoney>//../android.widget.TextView[@text,'No. Handphone Terdaftar']</lblNoHpEmoney>
+    <txtNoHpTerdaftarEmoney>//../android.widget.TextView[@text='No. Handphone Terdaftar']/preceding-sibling::android.view.ViewGroup/android.widget.EditText</txtNoHpTerdaftarEmoney>
+    <btnEmoneyDariKontak>//../android.widget.TextView[@text='No. Handphone Terdaftar']/following-sibling::android.view.ViewGroup/android.view.ViewGroup</btnEmoneyDariKontak>
+</Beli>

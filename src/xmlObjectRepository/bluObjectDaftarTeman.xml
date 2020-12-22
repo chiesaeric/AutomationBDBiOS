@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<daftarTeman>
+    <lblTidakDitemukan>//../android.widget.TextView[contains(@text,'Tidak ditemukan')]</lblTidakDitemukan>
+    <lblTemanDaftar>//../android.widget.TextView[contains(@text,'Teman sudah terdaftar')]</lblTemanDaftar>
+    <btnBack>//..android.widget.TextView[contains(@text,'Daftar Teman')]/parent::android.view.ViewGroup/parent::android.widget.ScrollView/preceding-sibling::android.view.ViewGroup</btnBack>
+    <chkItem>//../android.widget.TextView[contains(@text,'Digital BCA')]/following-sibling::android.view.ViewGroup</chkItem>
+    <txtCari>//../XCUIElementTypeOther[@label="Cari "]//../XCUIElementTypeTextField</txtCari>
+    <btnUndang>//../android.widget.TextView[contains(@text,'UNDANG') or contains(@text,'Undang')]</btnUndang>
+    <btnDaftarTeman>//../android.widget.TextView[contains(@text,'TAMBAH TEMAN BARU') or contains(@text,'Tambah teman baru')]</btnDaftarTeman>
+    <lstBank>//../android.widget.TextView[@text='Bank']</lstBank>
+    <txtCariBank>//../android.widget.TextView[contains(@text,'Cari')]/parent::android.view.ViewGroup/android.widget.EditText</txtCariBank>
+    <lstItem>//../android.widget.TextView[@text='Bank']/parent::android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup</lstItem>
+    <txtNoRek>//../android.widget.TextView[contains(@text,'Nomor rekening penerima') or contains(@text,'No. Rekening')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNoRek>
+    <imgKontak>//../android.widget.TextView[contains(@text,'Nomor rekening penerima') or contains(@text,'No. Rekening')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup</imgKontak>
+    <txtNamaAlias>//../android.widget.TextView[contains(@text,'Nama alias')]/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNamaAlias>
+    <btnLanjut>//../android.widget.TextView[contains(@text,'LANJUT') or contains(@text,'Lanjut')]</btnLanjut>
+    <btnSimpan>//../android.widget.TextView[contains(@text,'SIMPAN') or contains(@text,'Simpan')]</btnSimpan>
+    <lnkPilih>//../android.widget.TextView[contains(@text,'Pilih')]</lnkPilih>
+    <btnPilihSemua>//../android.widget.TextView[contains(@text,'PILIH SEMUA') or contains(@text,'Pilih Semua')]</btnPilihSemua>
+    <btnHapus>//../android.widget.TextView[@text='HAPUS' or @text='Hapus']</btnHapus>
+    <btnHapusFollow>//../android.widget.TextView[@text='Hapus teman?']//following-sibling::android.view.ViewGroup[2]</btnHapusFollow>
+    <btnTambahSav>//../android.widget.TextView[contains(@text,'Daftar teman')]/parent::android.view.ViewGroup/parent::android.widget.ScrollView/preceding-sibling::android.view.ViewGroup[1]</btnTambahSav>
+    <btnClearCari>//../android.widget.TextView[@text='Bank']/following-sibling::android.view.ViewGroup/android.view.ViewGroup[2]</btnClearCari>
+    <lst1SemuaNoRek>//../XCUIElementTypeOther[@label='Semua']/following-sibling::XCUIElementTypeOther</lst1SemuaNoRek>
+    <lblBelumFav>//../android.widget.TextView[contains(@text,'Kamu belum punya Favorit')]</lblBelumFav>
+    <lblCek>//../android.widget.TextView[@text='Cek' or @text='CEK']</lblCek>
+</daftarTeman>

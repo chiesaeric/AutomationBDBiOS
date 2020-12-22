@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<deposito>
+    <btnBack>//../android.widget.TextView[contains(@text,'Buka bluDeposit')]/parent::android.view.ViewGroup/parent::android.widget.ScrollView/preceding-sibling::android.view.ViewGroup[2]</btnBack>
+    <txtJumlahDana>//../android.widget.TextView[contains(@text,'Jumlah')]/preceding-sibling::android.view.ViewGroup/android.widget.EditText</txtJumlahDana>
+    <btnPlus>//../android.widget.TextView[contains(@text,'Tenor')]/following-sibling::android.view.ViewGroup[2]</btnPlus>
+    <btnMin>//../android.widget.TextView[contains(@text,'Tenor')]/following-sibling::android.view.ViewGroup[1]</btnMin>
+    <txtNamaDeposit>//../android.widget.TextView[contains(@text,'Jumlah')]/preceding-sibling::android.view.ViewGroup/android.widget.EditText</txtNamaDeposit>
+    <btnMore>//../android.widget.TextView[@text='Dana bluDeposit']/parent::*/parent::*/parent::*/preceding-sibling::android.view.ViewGroup[1]</btnMore>
+    <btnTambahDana>//../android.widget.TextView[contains(@text,'Tambah dana bluDeposit')]</btnTambahDana>
+    <btnOK>//../android.widget.TextView[contains(@text,'OK') or contains(@text,'Ok')]</btnOK>
+    <btnPocketBluDeposit>//../android.widget.TextView[@text='bluDeposit']</btnPocketBluDeposit>
+    <btnTambahBluDeposit>//../android.widget.TextView[@text='bluDeposit']/parent::android.view.ViewGroup/parent::android.view.ViewGroup/following-sibling::android.view.ViewGroup//../android.widget.TextView[@text='Tambah' or @text='TAMBAH']</btnTambahBluDeposit>
+    <txtTujuanDeposito>//../android.widget.TextView[contains(@text,'Tujuan bluDeposit')]/preceding-sibling::android.view.ViewGroup/android.widget.EditText</txtTujuanDeposito>
+    <sliderTenor>//../android.widget.TextView[@text='Tenor (1-12 bulan)']/following-sibling::android.view.ViewGroup[2]</sliderTenor>
+    <btnBukaBluDeposit>//../android.widget.TextView[@text='Buka bluDeposit']</btnBukaBluDeposit>
+    <btnKembaliKeBluDeposit>//../android.widget.TextView[@text='Kembali ke Daftar BluDeposit' or @text='Kembali']</btnKembaliKeBluDeposit>
+    <lblValueTotalDana>//../android.widget.TextView[@text='Total Dana']/following-sibling::android.widget.TextView[2]</lblValueTotalDana>
+    <lblDanaDepositTerbaru>//../android.widget.TextView[@text='bluDeposit Kamu']/following-sibling::android.view.ViewGroup[2]//../android.widget.TextView[3]</lblDanaDepositTerbaru>
+    <lblHeaderBluDeposit>//../android.widget.TextView[@text='bluDeposit']</lblHeaderBluDeposit>
+    <btnLainnya>//../android.widget.TextView[@text='bluDeposit']/following-sibling::android.view.ViewGroup[3]/android.view.ViewGroup</btnLainnya>
+    <btnLainnya2>//../android.widget.ScrollView/parent::android.view.ViewGroup/following-sibling::android.view.ViewGroup[1]</btnLainnya2>
+    <lblLainnya>//../android.widget.TextView[@text='Lainnya']</lblLainnya>
+    <lnkLihatBliyetDeposito>//../android.widget.TextView[@text='Lihat Bilyet Deposito']</lnkLihatBliyetDeposito>
+    <lnkCairkanDanaDeposito>//../android.widget.TextView[@text='Cairkan Dana Sekarang']</lnkCairkanDanaDeposito>
+    <btnYakin>//../android.widget.TextView[@text='Yakin']</btnYakin>
+    <btnBatal>//../android.widget.TextView[@text='Batal']</btnBatal>
+    <lblJumlahDanaDeposit>//../android.widget.TextView[@text='Jumlah Dana Deposit']/following-sibling::android.widget.TextView[2]</lblJumlahDanaDeposit>
+    <txtTopUp>//../android.widget.TextView[@text='Jumlah (Min Rp 1.000.000 Maks 10.000.000)']/preceding-sibling::android.view.ViewGroup/android.widget.EditText</txtTopUp>
+    <btnTransaksiTambahDana>//../android.widget.TextView[@text='Tambah Dana']</btnTransaksiTambahDana>
+    <btnLanjut>//../android.widget.TextView[@text='Lanjut']</btnLanjut>
+    <lnkDrivePDFViewer>//../android.widget.TextView[@text='Drive PDF Viewer']</lnkDrivePDFViewer>
+    <lnkOneDriveViewer>//../android.widget.TextView[@text='OneDrive PDF Viewer']</lnkOneDriveViewer>
+    <btnAddtoDrive>//android.widget.TextView[@content-desc="Add to Drive"]</btnAddtoDrive>
+</deposito>

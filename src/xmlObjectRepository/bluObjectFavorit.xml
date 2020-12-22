@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kontak>
+    <lblFavoritTransfer>//XCUIElementTypeStaticText[@name="Transfer Favorit"]</lblFavoritTransfer>
+    <lstFrekuensi>(//XCUIElementTypeOther[@name="Frekuensi Harian"])[2]</lstFrekuensi>
+    <btnSimpan>(//XCUIElementTypeOther[@name="Simpan"])[3]</btnSimpan>
+    <elmNamaAlias>(//XCUIElementTypeOther[@name="20"])[2]</elmNamaAlias>
+    <txtNamaAlias>(//XCUIElementTypeOther[@name="20"])[2]/XCUIElementTypeOther</txtNamaAlias>
+    <elmTanggalBer>//XCUIElementTypeOther[@name="Tanggal berakhir"]</elmTanggalBer>
+    <radioIngat>(//XCUIElementTypeOther[@name="Ingatkan saya"])[2]/XCUIElementTypeOther[2]/XCUIElementTypeSwitch</radioIngat>
+    <txtTanggalBer>(//XCUIElementTypeOther[contains(@name,"Tanggal berakhir")])[40]</txtTanggalBer>
+    <btnPilih>(//XCUIElementTypeOther[@name="Pilih"])[2]</btnPilih>
+    <btnPilih2>(//XCUIElementTypeOther[@name="Pilih"])[2]</btnPilih2>
+</kontak>

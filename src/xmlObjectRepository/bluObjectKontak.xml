@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kontak>
+    <lblKontak>//../android.widget.TextView[contains(@text,'Kontak')]</lblKontak>
+    <txtCariKontakGaGuna>//../android.widget.TextView[contains(@text,'Cari Kontak')]/parent::android.view.ViewGroup/android.widget.EditText</txtCariKontakGaGuna>
+    <txtCariKontak>//../android.widget.EditText[contains(@text,'Cari Kontak')]</txtCariKontak>
+</kontak>

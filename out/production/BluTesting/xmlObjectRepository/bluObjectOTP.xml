@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PIN>
+    <txtPin1>//../android.widget.EditText[1]</txtPin1>
+    <txtPin2>//../android.widget.EditText[2]</txtPin2>
+    <txtPin3>//../android.widget.EditText[3]</txtPin3>
+    <txtPin4>//../android.widget.EditText[4]</txtPin4>
+    <txtPin5>//../android.widget.EditText[5]</txtPin5>
+    <txtPin6>//../android.widget.EditText[6]</txtPin6>
+    <btn1>//../android.widget.TextView[@text='1']</btn1>
+    <btn2>//../android.widget.TextView[@text='2']</btn2>
+    <btn3>//../android.widget.TextView[@text='3']</btn3>
+    <btn4>//../android.widget.TextView[@text='4']</btn4>
+    <btn5>//../android.widget.TextView[@text='5']</btn5>
+    <btn6>//../android.widget.TextView[@text='6']</btn6>
+    <btn7>//../android.widget.TextView[@text='7']</btn7>
+    <btn8>//../android.widget.TextView[@text='8']</btn8>
+    <btn9>//../android.widget.TextView[@text='9']</btn9>
+    <btn0>//../android.widget.TextView[@text='0']</btn0>
+    <btnKeyBoardDel>//../android.widget.TextView[@text='']</btnKeyBoardDel>
+    <lblSPRINT>//../android.widget.TextView[@text='SPRINT']</lblSPRINT>
+    <txtOTP1>//../android.widget.TextView[contains(@text,'Verifikasi handphone')]</txtOTP1>
+    <txtOTP2>//../android.widget.TextView[contains(@text,'Verifikasi handphone')]/following-sibling::android.view.ViewGroup/android.view.ViewGroup[2]</txtOTP2>
+    <txtOTP3>//../android.widget.TextView[contains(@text,'Verifikasi handphone')]/following-sibling::android.view.ViewGroup/android.view.ViewGroup[3]</txtOTP3>
+    <txtOTP4>//../android.widget.TextView[contains(@text,'Verifikasi handphone')]/following-sibling::android.view.ViewGroup/android.view.ViewGroup[4]</txtOTP4>
+</PIN>

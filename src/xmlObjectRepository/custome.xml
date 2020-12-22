@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<custome>
+    <objCustome>//../XCUIElementTypeOther[contains(@label,'strValue')]</objCustome>
+    <objCustomeFix>//../XCUIElementTypeOther[@label='strValue']</objCustomeFix>
+    <objCustomeAcc>strValue</objCustomeAcc>
+    <btnIconHapus>//../android.widget.TextView[contains(@text,'strValue')]/parent::android.view.ViewGroup/parent::android.view.ViewGroup/following-sibling::android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup</btnIconHapus>
+    <btnIconHapusUndang>//../android.widget.TextView[contains(@text,'strValue')]/parent::android.view.ViewGroup/parent::android.view.ViewGroup/parent::android.view.ViewGroup/following-sibling::android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup</btnIconHapusUndang>
+    <lblHargaTopupEmoney>//../android.widget.TextView[@text='strValue']/following-sibling::android.widget.TextView</lblHargaTopupEmoney>
+    <lblRahkmahNabila>//../android.widget.TextView[@text='Rahkmah Nabila']</lblRahkmahNabila>
+</custome>

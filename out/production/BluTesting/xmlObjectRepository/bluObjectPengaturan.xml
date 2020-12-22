@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pengaturan>
+    <lnkPengaturanRek>//../XCUIElementTypeOther[@label='Pengaturan rekening']</lnkPengaturanRek>
+    <lblPengaturanLimit>//../XCUIElementTypeStaticText[@label='Pengaturan']</lblPengaturanLimit>
+    <lblDaftarTeman>//../android.widget.TextView[@text='Daftar teman']</lblDaftarTeman>
+    <lblDaftarNPWP>//../android.widget.ScrollView/following-sibling::android.view.ViewGroup//../android.widget.TextView[@text='Ambil foto NPWP']</lblDaftarNPWP>
+    <btnKamera>//../android.widget.TextView/following-sibling::android.view.ViewGroup</btnKamera>
+    <txtNPWP>//../android.widget.ScrollView//../android.widget.TextView[@text='NPWP']/parent::android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText</txtNPWP>
+</pengaturan>
